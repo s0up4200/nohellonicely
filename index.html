@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello! Ask away.</title>
+<meta name="description" content="Say hello and ask your question in the same message. You get help sooner, and nobody has to wait around.">
+<meta property="og:title" content="Hello! Ask away.">
+<meta property="og:description" content="Say hello and ask your question in the same message. You get help sooner, and nobody has to wait around.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #6b6b6b;
+    --accent: #2f6fdb;
+    --quote-bg: #f3f4f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --fg: #e6e6e6;
+      --muted: #9a9a9a;
+      --accent: #7aa7ff;
+      --quote-bg: #1e1e1e;
+    }
+  }
+  html { background: var(--bg); color: var(--fg); }
+  body {
+    margin: 0;
+    padding: 4rem 1rem 3rem;
+    font: 1.0625rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 36rem; margin: 0 auto; }
+  h1 { font-size: 2.25rem; line-height: 1.15; margin: 0 0 1.5rem; font-weight: normal; }
+  h1 span { color: var(--accent); }
+  p { margin: 0 0 1.25rem; }
+  blockquote {
+    margin: 0 0 1.25rem;
+    padding: 1rem 1.25rem;
+    background: var(--quote-bg);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+  }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--quote-bg);
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hello! <span>Ask away.</span></h1>
+
+  <p>If you have a question, put it in your first message. For example:</p>
+
+  <blockquote>Hey! I'm trying to get X working, but I get Y when I do Z. Any idea what's wrong?</blockquote>
+
+  <p>You don't need to wait for a reply to "hello" first. Most people check chat between other things, often from another time zone. If your question is already there, they can answer it when they see it. If all they see is "hello", they have to reply and wait for you, and by then you may have left.</p>
+
+  <p>Hello is fine. Hello plus your question is better.</p>
+
+  <p>Everyone has done it the other way at some point. No harm done.</p>
+
+  <footer>
+    <p>This page is a friendlier version of <a href="https://nohello.net">nohello.net</a>. Dark mode included, for extra friendliness.</p>
+  </footer>
+</main>
+</body>
+</html>
